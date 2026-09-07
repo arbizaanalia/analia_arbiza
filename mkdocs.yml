@@ -1,11 +1,11 @@
 # Replace the text below to customize your site
-site_name: Nombre Estudiante - UTEC & Fab Lab Barcelona & Fab Lab Esan
-site_description: Master in Design for Emergent Futures
-site_author: Nombre Estudiante
+site_name: Analía Arbiza - UTEC & Fab Lab Barcelona & Fab Lab Esan
+site_description: Especializaci{ón en Fabricación Digital e Innovación - UTEC & Fab Lab Barcelona & Fab Lab Esan
+site_author: Analía Arbiza
 copyright: Copyleft 2024 "Nombre Estudiante" - GNU Free Documentation License
 repo_name: "Name : Github Repo"
-site_url: https://mathira.github.io/efdi-template/
-repo_url: https://github.com/mathira/efdi-template
+site_url: https://analia_arbiza.github.io/efdi-template/
+repo_url: https://github.com/analia_arbiza/efdi-template
 
 nav:
   - Home: index.md
