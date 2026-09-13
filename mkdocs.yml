@@ -1,11 +1,11 @@
 # Replace the text below to customize your site
 site_name: Analía Arbiza - UTEC & Fab Lab Barcelona & Fab Lab Esan
-site_description: Especializaci{ón en Fabricación Digital e Innovación - UTEC & Fab Lab Barcelona & Fab Lab Esan
+site_description: Especialización en Fabricación Digital e Innovación - UTEC & Fab Lab Barcelona & Fab Lab Esan
 site_author: Analía Arbiza Rivoir
-copyright: Copyleft 2024 "Nombre Estudiante" - GNU Free Documentation License
+copyright: Copyleft 2026 "Analía Arbiza Rivoir" - GNU Free Documentation License
 repo_name: "Name : Github Repo"
-site_url: https://arbizaanalia.github.io/efdi-template/
-repo_url: https://github.com/arbizaanalia/efdi-template
+site_url: https://arbizaanalia.github.io/analia_arbiza/
+repo_url: https://github.com/arbizaanalia/analia_arbiza
 
 nav:
   - Home: index.md
