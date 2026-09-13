@@ -1,6 +1,6 @@
 # Sobre mi
 
-![Foto de Perfil](../images/hola/mi-foto.png)
+![Foto de Perfil](../images/hola/mi-foto.jpeg)
 
 Mi nombre es Analía Arbiza, soy Trabajadora Social y emprendedora en el mundo del diseño y la manufactura aditiva.
 
