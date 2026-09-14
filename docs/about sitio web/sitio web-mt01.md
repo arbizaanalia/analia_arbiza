@@ -1,5 +1,6 @@
-
 ## Proceso de creación de mi sitio web:
+
+### Otro idioma
 
 Rápidamente me di cuenta de que iba a ser bastante más complejo de lo que inicialmente me imaginaba, hay algo del *idioma* del mundo de la programación-páginas web que desconocía y que se me hacía muy ageno. Además, arranqué la especialización usando una Mac por primera vez en mi vida, lo cual también me implicaba aprender a usar una máquina que funciona de forma bastante distinta a lo que conocía.
 
@@ -19,11 +20,45 @@ Para mi, por momentos se sentía como que a alguien que está aprendiendo a teje
 
 ![Gatito enredado con lana](../images/ASW/cat-kitten.gif)
 
+
+
+### De los tutoriales a la práctica
+
 Fue un proceso bastante "desordenado" donde avancé en cosas al mismo tiempo que solucionaba problemas. Por ejemplo, yo comencé siguiendo el tutorial de Moodle (las capturas), por lo que en un momento llegué a editar la parte de about me, pero luego en la clase me dí cuenta de que aún no había logrado "levantar" la página y que había otro tutorial en Read me que también tenía que hacer. Una vez que pude dejar la página pública me pude finalmente sentar a explorar las funciones para mejorarla, editar, agregar imágenes, etc. Le pedí a la IA que me haga una lista de las reglas de sintaxis (aunque yo les digo comandos) más útiles para trabajar con texto plano y es lo que he ido usando para editar todo.
 
 ![Lista comandos](../images/ASW/lista-comandos.png)
 
 Luego instalé el Markdown editor en Visual Studio y voy cambiando de ese modo a Text Editor porque para algunas cosas como poner imágenes me sirve mas en ese modo. Sé que podría poner ambas vistas en simultáneo pero no he llegado a eso.
+
+### Herramientas utilizadas
+
+Pasando en limpio, las herramientas que utilicé en este proceso son:
+
+* **Visual Studio Code:** Mi editor de texto. Lo elegí por sugerencia de la IA y de la clase por facilidad y la cantidad de tutoriales y extensiones útiles.
+* **Markdown:** El lenguaje de texto plano con el que escribo todo. También lo sugerían y me parecía innecesario meterme en html de una.
+* **MkDocs + Material Theme:** Las plantillas recomendadas.
+* **Python y Pip:** El entorno y gestor de paquetes necesario en mi Mac para hacer funcionar MkDocs en local.
+* **Git y GitHub:** Las plataformas para el control de versiones y el alojamiento de mi web en la nube.
+* **Antigravity (IA):** para entender los errores de la terminal y traducir instrucciones.
+* **Compañeros y Discord:** he mirado todo lo que suben y he conversado con mi compañero de curso que me ha ayudado también en el proceso.
+* **Moodle:** Leí la información disponible y seguí los tutoriales aunque no me resultaron suficientes.
+
+### Gestión de versiones con Git y GitHub
+
+Logré incorporar el flujo de pasos básicos para guardar en mi carpeta local y luego subir al repositorio, lo suelo hacer desde la terminal pero aprendí en la clase que también se puede hacer "manual" cambio por cambio desde la pestaña de Source Control. Uso estos comandos:
+
+1. `git status`: Para ver qué archivos había modificado.
+2. `git add .`: Para preparar todos los cambios.
+3. `git commit -m "mensaje"`: Para guardar la versión con una nota explicando qué hice.
+4. `git push`: Para enviar la versión final a mi repositorio en GitHub.
+
+En un principio lo hacia a cada rato para chequear si funcionaba y porque me daba inseguridad olvidarme, luego lo comencé a hacer cuando termino algún paso que quiero completar. También le doy guardar todo el tiempo y aprendí que la pelotita blanca al lado del nombre de la sección quiere decir que tengo cambios sin guardar.
+
+![Punto blanco](../images/ASW/punto-blanco.png)
+
+
+
+### Reflexiones sobre el proceso
 
 En cuanto al proceso de documentar, entiendo que voy a ir incorporando la metodología de forma más ordenada con el correr de las tareas, en este caso lo hice de manera mas intuitiva intentando reflejar lo que fue mi experiencia en este primer módulo. En un principio estaba demasiado desbordada con todo como para recordar ir documentando al momento, logré hacerlo cada vez más con el paso de los días.
 
