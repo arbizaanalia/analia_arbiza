@@ -40,8 +40,8 @@ theme:
   name: material
   palette:
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
-    primary: lime
-    accent: purple
+    primary: purple
+    accent: light green
   font:
     # See available fonts at https://fonts.google.com/
     text: Be Vietnam
