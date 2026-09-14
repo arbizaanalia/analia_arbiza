@@ -4,7 +4,7 @@ Rápidamente me di cuenta que iba a ser bastante más complejo de lo que inicial
 
 En todo el proceso de intentar seguir los tutoriales, aprender a usar la máquina y entender lo que estaba haciendo, usé mucho mi chat con Antigravity tanto para preguntarle comandos de la Mac como para que me ayudara a seguir los tutoriales, a continuación adjunto una captura que refleja bastante bien cómo me sentía:
 
-![Captura conversación con Antigravity](../images/ASW/frustración-comandos-mac.png)
+![Captura conversación con Antigravity](../images/ASW/frustracion-comandos-mac.png)
 
 Me llevó un montón de días lograr dejar todo funcionando. Estaba muy atenta a los comandos específicos de mac, por ejemplo debía usar Python3 y Pip3 en vez de Python y pip. Esas cosas me resultaban cero obvias y me complicaron el proceso. Otro ejemplo fue el hecho de que logré familiarizarme con qué era y cómo usar la Terminal de mac pero capaz luego durante las clases, por momentos hacían referencia a: "Vayan a la consola". Mi reacción era: uy pero qué es la consola? yo no instalé eso! y así podría dar mil ejemplos.
 
