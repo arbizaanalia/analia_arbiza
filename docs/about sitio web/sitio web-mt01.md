@@ -2,7 +2,7 @@
 
 ### Otro idioma
 
-Rápidamente me di cuenta de que iba a ser bastante más complejo de lo que inicialmente me imaginaba, hay algo del *idioma* del mundo de la programación-páginas web que desconocía y que se me hacía muy ageno. Además, arranqué la especialización usando una Mac por primera vez en mi vida, lo cual también me implicaba aprender a usar una máquina que funciona de forma bastante distinta a lo que conocía.
+Rápidamente me di cuenta de que iba a ser bastante más complejo de lo que inicialmente me imaginaba, hay algo del *idioma* del mundo de la programación-páginas web que desconocía y que se me hacía muy ajeno. Además, arranqué la especialización usando una Mac por primera vez en mi vida, lo cual también me implicaba aprender a usar una máquina que funciona de forma bastante distinta a lo que conocía.
 
 En todo el proceso de intentar seguir los tutoriales, aprender a usar la máquina y entender lo que estaba haciendo, usé mucho mi chat con Antigravity tanto para preguntarle comandos de la Mac como para que me ayudara a seguir los tutoriales, a continuación adjunto una captura que refleja bastante bien cómo me sentía:
 
