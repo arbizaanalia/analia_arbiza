@@ -5,4 +5,4 @@ hide:
 
 # Ideas Iniciales
 
-test
+Próximamente voy a compartir aquí el desarrollo de mi Proyecto Integrador.
