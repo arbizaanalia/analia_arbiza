@@ -576,7 +576,7 @@
 <p><strong>Eje:</strong> Tecnología y fabricación</p>
 <h2 id="diseno-de-la-base-y-los-insertos">Diseño de la base y los insertos<a class="headerlink" href="#diseno-de-la-base-y-los-insertos" title="Permanent link">&para;</a></h2>
 <p><img alt="Primer registro del diseño en Fusion" src="../../images/modules/mt02/mt02-01.jpg" /></p>
-<p>Empecé en el menú <em>Sketch</em>, imaginando una base. Pensé el diseño para imprimirlo en PLA en una impresora 3D. Como las impresoras disponibles tienen una cama de 25 × 25 cm, diseñé una pieza de 20 × 20 cm: tiene un buen tamaño y no debería generar problemas al imprimirla.</p>
+<p>Empecé en el menú <em>Sketch</em>, imaginando una base. Pensé el diseño en todo momento para hacerlo impreso en PLA en una impresora 3D. Como las impresoras que tenemos tienen una cama de 25 × 25 cm, pensé en hacer algo de 20 × 20 cm, que tiene un buen tamaño pero no genera problemas a la hora de imprimirlo.</p>
 <p><img alt="Boceto inicial de la base" src="../../images/modules/mt02/mt02-02.png" /></p>
 <p>No me gustan los acabados angulares, así que redondeé las esquinas con un <em>Fillet</em> de 10 mm.</p>
 <p><img alt="Base con las esquinas redondeadas mediante Fillet" src="../../images/modules/mt02/mt02-03.jpg" /></p>
@@ -584,58 +584,59 @@
 <p><img alt="Herramienta Fillet en la categoría Sheet Metal" src="../../images/modules/mt02/mt02-04.png" /></p>
 <p>Con la herramienta <em>Revolve</em> hice una revolución parcial para generar el plano inclinado donde luego van los insertos. Me interesaba que estuviera al menos parcialmente verticalizado para facilitar su visualización y uso, pensando que se trata de un producto para adultos mayores.</p>
 <p><img alt="Plano inclinado generado mediante Revolve" src="../../images/modules/mt02/mt02-05.png" /></p>
-<p>Volví a hacer un <em>Sketch</em> con las puntas redondeadas para los insertos intercambiables y luego le puse un <em>Offset</em>, porque de esa manera podía encastrar las piezas. Si hacía una pieza de la medida exacta, luego no calzaría bien.</p>
+<p>Volví a hacer un <em>Sketch</em> con las puntas redondeadas para los insertos intercambiables y luego le puse un <em>Offset</em> al <em>Sketch</em>, porque de esa manera podía encastrar piezas. Si solo hiciera una pieza de la medida exacta, luego no calzaría bien.</p>
 <p><img alt="Boceto redondeado para los insertos intercambiables" src="../../images/modules/mt02/mt02-06.png" /></p>
-<p>En mi <em>Sketch</em> usé un <em>Offset</em> de 0,20 mm. Lo consulté con la IA y me dijo que era un buen punto de partida para diseñar piezas que tengan un encastre agradable.</p>
+<p>En mi <em>Sketch</em>, el <em>Offset</em> que usé es de 0,20 mm. Lo consulté con la IA y me dijo que era un buen punto de partida para diseñar piezas que tengan un encastre agradable.</p>
 <p><img alt="Detalle del offset de 0,20 mm para el encastre" src="../../images/modules/mt02/mt02-07.png" /></p>
-<p>También les quise hacer unos agujeritos verticales para que la pieza, cuando calce, deje escapar el aire y este no genere resistencia impidiendo que encastre de forma fluida. Fue una sugerencia de la IA que yo no había tenido en cuenta.</p>
+<p>También les quise hacer unos agujeritos verticales para que, cuando la pieza calce, deje escapar el aire y este no genere resistencia que impida que la pieza encastre de forma fluida. Este aspecto fue una sugerencia de la IA que yo no había tenido en cuenta cuando le conté mi idea.</p>
 <p><img alt="Agujeros verticales para permitir la salida de aire" src="../../images/modules/mt02/mt02-08.png" /></p>
 <h2 id="simetria-e-iteraciones-de-la-base">Simetría e iteraciones de la base<a class="headerlink" href="#simetria-e-iteraciones-de-la-base" title="Permanent link">&para;</a></h2>
-<p>Para hacer los agujeritos simétricamente distribuidos usé dos herramientas nuevas que mencionaron en los tutoriales de clase. La primera son las <em>construction lines</em>: líneas punteadas que no generan una cara en un <em>Sketch</em>, pero sirven como referencia. También aprendí sobre la restricción de simetría. La usé para seleccionar los dos lados del cuadrado y la línea de construcción para que esta última quedara perfectamente en el centro de ambos.</p>
+<p>En este punto, para hacer los agujeritos simétricamente distribuidos, usé dos herramientas nuevas que no había usado antes y que mencionaron en los tutoriales de clase. La primera son las <em>construction lines</em> (la línea punteada del medio), una línea que no genera una cara en un <em>Sketch</em> pero sirve como referencia para hacer otras cosas. También aprendí sobre la restricción de simetría. La usé para seleccionar los dos lados del cuadrado y luego la línea de construcción, para que esta última quedara perfectamente en el centro de ambas y generara simetría.</p>
 <p><img alt="Líneas de construcción y restricción de simetría" src="../../images/modules/mt02/mt02-09.png" /></p>
 <p>Así son las dos líneas de simetría que usé y así se ve el icono de la restricción.</p>
 <p><img alt="Detalle de las líneas y el icono de la restricción de simetría" src="../../images/modules/mt02/mt02-10.png" /></p>
 <p>Espejé los mini canales usando las <em>mirror lines</em>.</p>
 <p><img alt="Canales espejados en el modelo" src="../../images/modules/mt02/mt02-11.png" /></p>
-<p>En esta vista lateral se ve una dificultad: cuando quise generar una extrusión negativa para hacer un corte en la base, me di cuenta de que la pieza de encastre solo iba a entrar 1,5 mm antes de cortar la parte inferior. Me pareció poco. Desde que empecé a usar Fusion, con ayuda de un tutorial de un curso de Domestika, uso la línea de tiempo de etapas cuando necesito modificar algo. Desde allí modifiqué la base para tener un poco más de lugar.</p>
+<p>En esta vista lateral se ve una dificultad que tuve: cuando quise generar una extrusión negativa (herramienta que ya conocía) para hacer un corte en la base, me di cuenta de que la pieza de encastre solo iba a entrar 1 mm y medio antes de cortar la parte de abajo de la base, lo cual me pareció muy poco. Desde que empecé a usar Fusion, con ayuda de un tutorial de un curso de Domestika, uso la línea de tiempo de etapas cuando necesito modificar algo. Desde allí modifiqué la base para que me permitiera tener un poco más de lugar.</p>
 <p><img alt="Vista lateral que muestra la profundidad de encastre inicial" src="../../images/modules/mt02/mt02-12.png" /></p>
-<p>Así logré una base más inclinada, que favorecía mi objetivo de verticalizar el tablero, además de la posibilidad de usar un inserto de hasta medio cm (0,5 mm).</p>
-<p><strong>Dato a revisar:</strong> el documento indica que el inserto puede tener “medio cm (0,5 mm)”. Esas dos medidas no son equivalentes, por lo que conviene confirmar cuál corresponde.</p>
+<p>Así logré tanto una base más inclinada, que favorecía mi objetivo de verticalizar el tablero, como la posibilidad de usar un inserto de hasta medio cm (0,5 mm).</p>
+<p><strong>Dato a revisar:</strong> el documento indica “medio cm (0,5 mm)”. Esas dos medidas no son equivalentes, así que conviene confirmar cuál corresponde.</p>
 <p><img alt="Base modificada con mayor inclinación y espacio para el inserto" src="../../images/modules/mt02/mt02-13.png" /></p>
 <p>Usé la herramienta de color para visualizar mejor la pieza.</p>
 <p><img alt="Base coloreada durante el modelado" src="../../images/modules/mt02/mt02-14.png" /></p>
 <p>Para generar el inserto, extruí la base del <em>Sketch</em> sin seleccionar los agujeritos de escape de aire ni el margen del <em>Offset</em>.</p>
 <p><img alt="Selección del perfil para extruir el inserto" src="../../images/modules/mt02/mt02-15.png" /></p>
-<p>Fue importante seleccionar <em>New Body</em> al momento de extruirlo para que no se uniera al otro cuerpo, evitando usar <em>Join</em>, que era la opción que aparecía automáticamente en el menú <em>Operation</em>.</p>
+<p>Fue importante seleccionar <em>New Body</em> al momento de extruirlo para que no lo uniera al otro cuerpo, evitando usar <em>Join</em>, que era la opción que salía automáticamente en el menú <em>Operation</em>.</p>
 <p><img alt="Operación de extrusión configurada como New Body" src="../../images/modules/mt02/mt02-16.png" /></p>
-<p>Pinté de verde el inserto y agregué un <em>Fillet</em> en la pieza amarilla para darle un borde más redondeado y menos filoso, acorde con la estética de terminaciones más suaves que estaba buscando.</p>
+<p>Pinté de verde el inserto y agregué un <em>Fillet</em> en la pieza amarilla para darle un borde más redondeado y menos filoso, acorde con la estética que estaba buscando, de terminaciones más suaves.</p>
 <p><img alt="Inserto y pieza amarilla con bordes suavizados" src="../../images/modules/mt02/mt02-17.png" /></p>
 <p>En la base usé el mismo <em>Fillet</em> de 2 mm para mantener la estética del inserto de arriba.</p>
 <p><img alt="Detalle del redondeo de la base" src="../../images/modules/mt02/mt02-18.png" /></p>
 <h2 id="iconos-agarres-e-identidad-visual">Iconos, agarres e identidad visual<a class="headerlink" href="#iconos-agarres-e-identidad-visual" title="Permanent link">&para;</a></h2>
-<p>Como ya sé usar Illustrator, le pedí a la IA una imagen para intentar hacer los SVG en Inkscape, que me resultaba más desafiante. Sin embargo, me dio directamente un archivo SVG. También tuve que aprender dónde guarda los archivos la IA.</p>
+<p>Como ya sé usar Illustrator, le pedí a la IA que me diera una imagen para intentar hacer los SVG en Inkscape, que me resultaba más desafiante. Sin embargo, me dio directamente un archivo SVG. Ahí tuve que aprender dónde guarda la IA las cosas, ya que hace poco que empecé a usar Antigravity.</p>
 <p><img alt="Archivo SVG de referencia para generar los iconos" src="../../images/modules/mt02/mt02-19.png" /></p>
-<p>Con ese SVG generé nueve iconos, distribuidos en una cuadrícula como el diseño, y usé el <em>Offset</em> de −0,2 correspondiente para que encastraran. Me pareció una buena cantidad para que no quedaran demasiado grandes ni pequeños y fueran fáciles de manipular.</p>
+<p>Con ese SVG generé nueve iconos, para que quedaran en una distribución cuadrada como el diseño, y el <em>Offset</em> de −0,2 correspondiente para que encastraran. También me pareció una buena cantidad para que no quedaran ni muy grandes ni muy pequeños, pensando en que fueran fáciles de manipular para el tamaño de las manos de una persona adulta.</p>
 <p><img alt="Distribución de los nueve iconos en el diseño" src="../../images/modules/mt02/mt02-20.png" /></p>
-<p>Con algunas <em>construction lines</em> generé círculos centrados que serían los cilindros para agarrar las piezas.</p>
+<p>Usando algunas <em>construction lines</em> pude generar unos círculos centrados que serían los cilindritos para agarrar las piezas.</p>
 <p><img alt="Círculos centrados para los agarres" src="../../images/modules/mt02/mt02-21.png" /></p>
-<p>Generé los huecos con una extrusión negativa, seleccionando también el <em>Offset</em> para la holgura del encastre. Me di cuenta de que habría sido más fácil hacer primero los huecos y luego la pieza con un <em>Offset</em>, porque tuve que seleccionar a mano cada sector del <em>Sketch</em> para recortar los encastres.</p>
+<p>Generé los huecos con una extrusión negativa, seleccionando también el <em>Offset</em> para la holgura del encastre. En este punto me di cuenta de que hubiese sido más fácil hacer los huecos primero y luego la pieza con un <em>Offset</em>, porque tuve que seleccionar para el recorte de los encastres todo a mano, sector por sector del <em>Sketch</em>.</p>
 <p><img alt="Huecos del encastre creados con extrusión negativa" src="../../images/modules/mt02/mt02-22.jpg" /></p>
-<p>Después de probar dos agarres, me di cuenta de que lo mejor era hacerlos con un <em>Offset</em> de 5, equivalente al ancho de las formas, para que quedaran a la altura adecuada.</p>
+<p>Después de probar con dos de los agarres, me di cuenta de que lo mejor era hacerlos con un <em>Offset</em> de 5 (ancho de las formitas); así ya me quedaban a la altura adecuada.</p>
 <p><img alt="Prueba de los agarres y su altura" src="../../images/modules/mt02/mt02-23.png" /></p>
 <p>Pinté las piezas usando los materiales que había asignado antes.</p>
 <p><img alt="Piezas coloreadas con los materiales asignados" src="../../images/modules/mt02/mt02-24.png" /></p>
-<p>Diseñé el logo con IA, describiendo cómo imaginaba el producto y una marca orientada a personas adultas mayores, con ejercicios para la atención, la memoria y la motricidad fina. Luego de dar feedback a varios logos que no me convencían por su textura, colores y sombras, llegué al diseño definitivo. El nombre surgió de un juego de palabras entre memoria, atención e inteligencia.</p>
-<p>La IA generó el logo en PNG. Lo pasé por Inkscape, el programa sugerido en clase, para generar el SVG.</p>
+<p>Diseñé el logo con IA, contándole un poco cómo me imaginaba el producto y una marca de productos con esta orientación hacia las personas adultas mayores, con ejercicios para la atención, la memoria y la motricidad fina. Luego de darle feedback a varios logos que no me gustaron (tenían demasiada textura, colores y sombras para lo que yo quería, pensando en la impresión 3D), llegué al definitivo. El nombre ya lo había pensado con un juego de palabras entre memoria, atención e inteligencia.</p>
+<p>La IA generó un logo en PNG, así que lo pasé por Inkscape, que es el programa que habían sugerido en clase y, como mencioné anteriormente, ya manejo Illustrator.</p>
 <p><img alt="Diseño del logo para el producto" src="../../images/modules/mt02/mt02-25.png" /></p>
 <p>Generé el SVG del logo usando Inkscape.</p>
 <p><img alt="Logo vectorizado en Inkscape" src="../../images/modules/mt02/mt02-26.png" /></p>
-<p>Me interesaba que el logo fuera una pieza separada del objeto, para imprimirlo en varios colores de forma más eficiente que pegándolo en altura: así se evitan muchos cambios de color, que alargan el tiempo de impresión y generan más desperdicio de material. Hice un bajorrelieve donde iría el logo impreso por separado.</p>
+<p>Me interesaba que el logo fuese una pieza aparte del objeto para poder imprimirlo en multicolor, pero de manera más eficiente que pegado al objeto en altura, lo cual implicaría muchísimos cambios de color, alargando los tiempos de impresión y generando mayor desperdicio de material. Lo que hice fue generar un bajorrelieve donde iría el logo impreso aparte.</p>
 <p><img alt="Bajorrelieve previsto para colocar el logo por separado" src="../../images/modules/mt02/mt02-27.png" /></p>
-<p>Algo importante era nombrar los cuerpos que se iban generando (<code>body1</code>, <code>body2</code>, etc.). Eso permite pintarlos y seleccionarlos desde el árbol de la izquierda. Si no era prolija con los nombres, se generaba confusión y se complicaba el flujo de trabajo.</p>
+<p>Algo importante que tenía que recordarme en todo momento era nombrar los cuerpos (<code>body1</code>, <code>body2</code>, etc.) que se iban generando, porque eso permite pintarlos y seleccionarlos fácilmente desde el árbol de la izquierda. Si no era prolija con esto, se generaba confusión y se me complicaba el flujo de trabajo.</p>
 <p><img alt="Organización de los cuerpos en el árbol del modelo" src="../../images/modules/mt02/mt02-28.png" /></p>
 <h2 id="render-e-infografia">Render e infografía<a class="headerlink" href="#render-e-infografia" title="Permanent link">&para;</a></h2>
-<p>Quise hacer un render del producto final, pero no encontraba cómo quitar la sombra del lado del logo hasta que logré resolverlo. No quedé muy conforme con el render porque no me resultó fiel, sobre todo en las texturas.</p>
+<p>Quise hacer un render del producto final, pero no encontraba cómo sacar la sombra del lado del logo, hasta que encontraste cómo.</p>
+<p>No quedé muy conforme con el render porque siento que no es muy fiel, sobre todo en las texturas.</p>
 <p><img alt="Render del producto diseñado" src="../../images/modules/mt02/mt02-29.png" /></p>
 <p>Por último, generé la infografía de presentación del producto.</p>
 <p><img alt="Infografía de presentación del producto" src="../../images/modules/mt02/mt02-30.png" /></p>
@@ -647,7 +648,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 9, 2026 02:10:49 UTC">November 9, 2026</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 9, 2026 02:47:52 UTC">November 9, 2026</span>
     
   </small>
 </div>
